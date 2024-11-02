@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parallax-tittle {
+  background-tittle: url("src/assets/splashTitle.svg"); /* Replace with the actual path to your SVG file */
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+}
