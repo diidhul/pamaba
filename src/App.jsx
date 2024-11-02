@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useState, useEffect } from 'react';
 import SplashScreen from './components/splashScreen';
-// import MainContent from './components/MainContent';
+import Menu from './pages/Menu.jsx';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setFadeOut(true); //fade out habis splashScreen
-      // setTimeout(() => setIsLoading(false), 500);
+      setTimeout(() => setIsLoading(false), 500);
     }, 4500); //tetap di halaman ini 4,5 sec baru masok ke main page
 
     return () => clearTimeout(timer);
@@ -23,7 +23,7 @@ const App = () => {
           <SplashScreen />
         </div>
       ) : (
-        <MainContent />
+        <Menu />
       )}
     </>
   );
