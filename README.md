@@ -16,7 +16,6 @@ The **Games** section invites children to interact with the app through engaging
 
 Pamaba combines education and interaction, making disaster awareness an accessible and enjoyable learning experience for young audiences.
 
-<<<<<<< HEAD
 ## How to Use
 
 ### Prerequisites
@@ -49,21 +48,3 @@ Pamaba combines education and interaction, making disaster awareness an accessib
    ```sh
        npm run dev
    ```
-=======
-
-## How to Use
-
-```sh
-# Step 1: Initialize npm in your project (if not already done)
-npm init -y
-
-# Step 2: Install Vite, React, and TailwindCSS
-npm install vite react react-dom tailwindcss
-
-# Step 3: Configure TailwindCSS in index.css by adding these base imports
-echo "@tailwind base;\n@tailwind components;\n@tailwind utilities;" >> src/index.css
-
-# Step 4: Run the application
-npm run dev
-```
->>>>>>> fa8d5afd869bc973b137826d81aabd68d892a004
