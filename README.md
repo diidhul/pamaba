@@ -13,3 +13,20 @@ The **Materi** section introduces young learners to various types of natural dis
 The **Games** section invites children to interact with the app through engaging activities. Here, they can simulate responses to disaster scenarios, reinforcing the skills they need to deal with potential situations in a safe, playful environment.
 
 Pamaba combines education and interaction, making disaster awareness an accessible and enjoyable learning experience for young audiences.
+
+
+## How to Use
+
+```sh
+# Step 1: Initialize npm in your project (if not already done)
+npm init -y
+
+# Step 2: Install Vite, React, and TailwindCSS
+npm install vite react react-dom tailwindcss
+
+# Step 3: Configure TailwindCSS in index.css by adding these base imports
+echo "@tailwind base;\n@tailwind components;\n@tailwind utilities;" >> src/index.css
+
+# Step 4: Run the application
+npm run dev
+```
